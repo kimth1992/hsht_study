@@ -35,6 +35,7 @@ public class no_2884{
     }
 
     System.out.printf("%d %d", hour,min);
+    sc.close();
 
   }
 
