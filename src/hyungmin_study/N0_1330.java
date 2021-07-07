@@ -1,5 +1,5 @@
 /*    '틀렸습니다' 나옵니다.
- *      이클립스 에서는 정상적으로 실행되는데 어떤 문제가 틀렸는지 잘 모르겠네요ㅜㅜ
+ *      이클립스 에서는 정상적으로 실행되는데 어떤 부분이 틀렸는지 잘 모르겠네요ㅜㅜ
  * 
  * 
  */
@@ -14,7 +14,7 @@ public class N0_1330 {
 
     int a = scn.nextInt();
     int b = scn.nextInt();
-    System.out.printf("%d%d",a,b);
+    System.out.printf("%d %d",a,b);
 
     if(a>b) {
       System.out.println(">");
