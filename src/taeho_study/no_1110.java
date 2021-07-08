@@ -10,10 +10,23 @@ public class no_1110 {
 
 
     Scanner sc = new Scanner(System.in);
+    int num = 0;
+    num = sc.nextInt();
+    int end = num;
+    int count = 0;
+
+    do {
+
+      int frontnum = num/10;
+      int backnum = num%10;
+      int addnum = (frontnum + backnum)%10;
+
+      num = backnum * 10 + addnum;
+      count++;
 
 
-
-
+    }while(num != end);
+    System.out.printf("횟수 : %d" ,count);
 
   }
 
