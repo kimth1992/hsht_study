@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class No9498 {
 
   public static void main(String[] args) {
+    
     Scanner key = new Scanner(System.in);
     int score = key.nextInt();
 
