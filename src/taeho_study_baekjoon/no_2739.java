@@ -1,4 +1,4 @@
-package taeho_study;
+package taeho_study_baekjoon;
 
 import java.util.Scanner;
 public class no_2739{
