@@ -1,4 +1,4 @@
-package taeho_study_javajungsuk_chapter4;
+package taeho_study.javajungsuk_chapter4;
 
 public class prac4_11 {
 

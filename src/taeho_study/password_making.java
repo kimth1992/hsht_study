@@ -65,6 +65,7 @@ public class password_making {
 
 
 } // 클래스 종료 
+
 class encry{
   static void encry(String s){
 
