@@ -25,7 +25,7 @@ public class password_making {
           num= sc.nextInt();
 
           if(num>3 || num <0) {
-            System.out.println("역시 한국인이면 메뉴얼대로 안하는게 정석이죠^^");
+            System.out.println("하라는 대로 안할 것 같긴 했어..^^");
             System.out.println("계속 다른것 눌러도 똑같으니 1,2,3 중에 하나 누르시는걸 추천");
             System.out.println("----------------------------------------------");
             System.out.println();
@@ -59,7 +59,8 @@ public class password_making {
 
         }while(true);{}
     }catch(Exception e) {
-      System.out.println("숫자 이외에 다른 것 입력하면 종료되게 만들었지롱~ 다시 시작해서 메뉴얼 대로 하세요^^");
+      System.out.println("숫자 이외에 다른 것 입력하면 종료되게 만들었는데 쿠쿠쿠쿠"
+          + " 다시 시작해서 메뉴얼 대로 하세요^^");
     }// do 종
   } // 메인메서드 종
 
