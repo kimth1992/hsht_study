@@ -19,12 +19,13 @@ public class no_3052 {
     for(int i = 0 ; i < 10 ; i++) {
       int cnt = 0;
       for(int j = i+1 ; j < 10; j++) {
-        if(arr[i] == arr[j]) {
+        if(arr[i] == arr[j]) 
           cnt++;
-        }
       }
-      if(cnt ==0)
+      if(cnt ==0) {
+        System.out.printf("카운트가 올라가는 곳은 %d\n", i+1);
         count++;
+      }
     }
 
     System.out.println(count);
@@ -32,3 +33,4 @@ public class no_3052 {
   }
 
 }
+//int[] totalArr = new int[42];

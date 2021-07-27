@@ -20,8 +20,6 @@ public class no_8958 {
     String[] arr = new String[N];
     char ch = ' ';
 
-
-
     for(int i = 0 ; i < N ; i++) {
       int count = 0;
       int sum = 0;
