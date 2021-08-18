@@ -13,8 +13,6 @@ public class prac4_5 {
     //
     //}
 
-
-
     int i = 0;
     int j  = 0;
     while(i <= 10) {

@@ -32,8 +32,6 @@ public class password_making {
 
           }
 
-
-
           switch(num) {
 
             case 1: 

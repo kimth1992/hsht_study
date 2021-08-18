@@ -8,8 +8,6 @@ public class Prac6_7 {
     MyPoint p = new MyPoint(1,1);
 
     System.out.println(p.getDistance(2,2));
-
-
   }
 
 }

@@ -15,7 +15,7 @@ public class prac4_14 {
     Scanner sc = new Scanner(System.in);
 
     do {
-      // System.out.println("정답 : " + answer);
+
       count++;
       System.out.print("1~100 사이 값을 입력하세요 : ");
       input = sc.nextInt();
