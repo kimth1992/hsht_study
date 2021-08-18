@@ -18,7 +18,6 @@ public class Programers_2nd {
   static Solution2 sol = new Solution2();
 
   public static void main(String[] args) {
-    // TODO Auto-generated method stub
 
     int[][] scores = {
         {100,90,98,88,65},
