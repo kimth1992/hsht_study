@@ -23,71 +23,71 @@ public class Programers_2019_KAKAO {
 }
 
 
-//class Solution4 {
-//  public int solution(int[][] board, int[] moves) {
-//    int answer = 0;
-//    int index = 0;
-//
-//    int[] arr = new int[moves.length]; 
-//
-//    for (int i = 0; i < moves.length; i++) {
-//
-//      for (int j = 0; j < board.length; j++) {
-//
-//        if (board[j][moves[i] - 1] != 0) {
-//          arr[index] = board[j][moves[i] - 1];
-//
-//          if (index >= 1 && arr[index] == arr[index  -1]) {
-//            arr[index] = 0;
-//            arr[index - 1] = 0;
-//            index -= 2;
-//            answer += 2;
-//          }
-//
-//          board[j][moves[i] - 1] = 0;
-//          index++;
-//          break;
-//        }
-//
-//      }
-//
-//    }
-//    return answer;
-//  }
-//
-//}
-
-
 class Solution4 {
   public int solution(int[][] board, int[] moves) {
     int answer = 0;
-    int num = 0; // 
+    int index = 0;
 
-    int[] arr = new int[moves.length]; // 8
+    int[] arr = new int[moves.length]; 
 
-    for(int i = 0 ; i < moves.length ; i++) {
+    for (int i = 0; i < moves.length; i++) {
 
-      for(int j = 0 ; j < board.length ; j++) {
+      for (int j = 0; j < board.length; j++) {
 
-        if(board[j][moves[i]-1] != 0) {
-          arr[num] = board[j][moves[i]-1];
-          board[j][moves[i]-1] = 0;
+        if (board[j][moves[i] - 1] != 0) {
+          arr[index] = board[j][moves[i] - 1];
 
-          if(num >=1 && arr[num] == arr[num-1]) {
-            arr[num] = 0;
-            arr[num -1] = 0;
-            num -= 2;
+          if (index >= 1 && arr[index] == arr[index  -1]) {
+            arr[index] = 0;
+            arr[index - 1] = 0;
+            index -= 2;
             answer += 2;
           }
-          num++;
+
+          board[j][moves[i] - 1] = 0;
+          index++;
           break;
         }
 
       }
 
     }
-
-
     return answer;
   }
+
 }
+
+
+//class Solution4 {
+//  public int solution(int[][] board, int[] moves) {
+//    int answer = 0;
+//    int num = 0; // 
+//
+//    int[] arr = new int[moves.length]; // 8
+//
+//    for(int i = 0 ; i < moves.length ; i++) {
+//
+//      for(int j = 0 ; j < board.length ; j++) {
+//
+//        if(board[j][moves[i]-1] != 0) {
+//          arr[num] = board[j][moves[i]-1];
+//          board[j][moves[i]-1] = 0;
+//
+//          if(num >=1 && arr[num] == arr[num-1]) {
+//            arr[num] = 0;
+//            arr[num -1] = 0;
+//            num -= 2;
+//            answer += 2;
+//          }
+//          num++;
+//          break;
+//        }
+//
+//      }
+//
+//    }
+//
+//
+//    return answer;
+//  }
+//}

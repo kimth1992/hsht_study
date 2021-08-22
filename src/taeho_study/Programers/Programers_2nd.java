@@ -70,13 +70,13 @@ class Solution2 {
 
   public String solution(int[][] scores) {
 
-    double[] student = new double[scores.length]; // 평균을 담을 배열
+    double[] student = new double[scores.length]; 
 
     for(int i = 0; i < scores.length ; i++) {
       count = scores.length;
       myscore = scores[i][i]; 
-      min = 101; // 87
-      max = -1; // 87
+      min = 101; 
+      max = -1; 
 
 
 
