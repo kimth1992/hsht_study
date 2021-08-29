@@ -12,7 +12,7 @@ public class Prac6_5 {
 
 }
 
-class Student{
+class Student {
   String name;
   int ban;
   int no;
@@ -20,7 +20,7 @@ class Student{
   int eng;
   int math;
 
-  Student(String name, int ban, int no, int kor, int eng, int math){
+  Student(String name, int ban, int no, int kor, int eng, int math) {
     this.name = name;
     this.ban = ban;
     this.no = no;

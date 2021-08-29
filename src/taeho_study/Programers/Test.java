@@ -53,7 +53,8 @@ class Solution9 {
       }
     }
 
-    answer = new String(arr);
+    //    answer = new String(arr);
+    answer = String.valueOf(arr);
 
 
     return answer;

@@ -13,6 +13,9 @@ public class Prac6_20 {
     int[] result = shuffle(original);
     System.out.println(Arrays.toString(result));
 
+
+    Math.random();
+
   }
 
 

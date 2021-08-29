@@ -28,9 +28,7 @@ public class Prac6_22 {
 
       if(ch < '0' || ch > '9' )
         return false;
-
     }
-
 
     return true;
   }
