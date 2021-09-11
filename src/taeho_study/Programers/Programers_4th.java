@@ -30,9 +30,9 @@ class Solution8 {
     // 2차원 배열로 만든 후에 작업하는게 더 좋다고 생각
     String[][] arr;
 
-    for(int i = 0 ; i < table.length; i++) {
-      arr[i][0] = table[i].split(arr);
-    }
+    //    for(int i = 0 ; i < table.length; i++) {
+    //      arr[i][0] = table[i].split(arr);
+    //    }
 
 
 

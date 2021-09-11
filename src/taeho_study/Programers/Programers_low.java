@@ -8,7 +8,7 @@ public class Programers_low {
     int[] arr = {3,2,4,1,1,7};
 
     Solution15 sol = new Solution15();
-    sol.solution(arr);
+    System.out.println(sol.solution(arr));
 
   }
 
