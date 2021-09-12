@@ -62,25 +62,12 @@ class Solution24 {
       answer[i] = keySetList.get(i);
     }
 
-    //    for(Integer key : keySetList) {
-    //      System.out.println("key: " + key + "/" + "value: " + map.get(key));
-    //    }
-
 
 
     for(int i = 0; i < answer.length; i++) {
       System.out.println(answer[i]);
     }
 
-
-
-    //    List<Double> list = new ArrayList<>();
-    //
-    //    for(int i = 0 ; i < failrate.length ; i++) {
-    //      list.set(i, failrate[i]);
-    //    }
-
-    //    System.out.println(list);
 
 
 
