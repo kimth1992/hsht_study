@@ -14,6 +14,8 @@ public class TT {
     int b = 6;
 
     System.out.println(solution(a,b));
+    System.out.println("");
+    System.out.println("🗹");
 
   }
 
