@@ -10,6 +10,7 @@ public class no_10000 {
 
     a = 100;
     b = 200;
+    int c = 100;
 
   }
 
