@@ -16,6 +16,7 @@ public class test {
     arr2 = Arrays.copyOf(arr, arr.length);
     //  System.out.println(arr == arr2);
     System.out.println(arr2.length);
+    System.out.println("ok");
 
 
     //  System.arraycopy(arr, 0, arr2, 0, arr.length);
