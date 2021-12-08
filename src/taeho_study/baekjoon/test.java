@@ -18,6 +18,7 @@ public class test {
     System.out.println(arr2.length);
     System.out.println("ok");
     System.out.println("");
+    System.out.println("");
 
 
     //  System.arraycopy(arr, 0, arr2, 0, arr.length);
