@@ -19,6 +19,9 @@ public class test {
     System.out.println("ok");
     System.out.println("");
     System.out.println("");
+    for (int i = 0; i < arr.length; i ++) {
+
+    }
 
 
     //  System.arraycopy(arr, 0, arr2, 0, arr.length);
