@@ -20,7 +20,8 @@ public class test {
     System.out.println("");
     System.out.println("");
     for (int i = 0; i < arr.length; i ++) {
-
+      int k = 0;
+      k = i + 1;
     }
 
 
